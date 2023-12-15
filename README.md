@@ -1,2 +1,2 @@
-# GroupProject1
-Group Project 1
+# Up/Down/Flat - SPY prediction application
+
