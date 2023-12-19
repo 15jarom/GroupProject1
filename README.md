@@ -10,7 +10,7 @@ The app user will be able to perform the following actions:
 * Set hold commands to hold any/all securities for a specified duration.
 * Set sell commands to sell any/all owned securities at a specified date and time.
 * Obtain real-time trading information on selected stocks.
-###### (Add image/GIF here) 
+###### (Add image/GIF here)
 #
 ---
 #
