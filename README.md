@@ -74,5 +74,3 @@ The app will provide predicted SPY closing prices with over 95% accuracy.
 * Jonathan Frazure (Data Acquisition & Cleaning)
 * Khareem Henderson (README Developer)
 
-
-                         
