@@ -25,6 +25,7 @@ ALPCACA API Keys
  
 
 ![](Pictures/warnings_filter.png)
+
 The "warnings.filterwarnings" command removes or condenses warning errors to ease the reading experience of the programmer.
 #
 ### This application is compatible with the following platforms:
