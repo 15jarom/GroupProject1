@@ -38,11 +38,14 @@ Generate ALPCACA API Keys
 This portion of the program similates 1000 possible outcomes based on the historical data (about 18 months of trading). Taking the average of that should give us the most likely outcome of the simulation.
 We provide a low and high estimate based on the 25th percentile and 75th percentile as well. 
 
-![](Pictures/mc_graph.png)
+
 
 ### Regression Prediction
 Using multi-linear Regression, we can predict the outcome of the time-series data used. The independent variables were other world-wide region ETFs to predict the movement in the US by viewing the changes in the indices of other major, developed markets around the world. 
 The accuracy score of the model is typically 95% or higher. 
+
+![](Pictures/mc_graph.png)
+
 #
 #
 ---
