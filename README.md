@@ -1,17 +1,9 @@
-# APP NAME
-The ("APP Name") serves to aid both new and veteran investors in making financially sound decisions when investing in the stock market. The application provides the following market data:
+# SPY on Tomorrow
+SPY on Tomorrow serves to aid both new and veteran investors in making financially sound decisions when investing in the stock market. The application provides the following market data:
 * Historical closing price data (1 day prior).
-* S&P 500 predicted closing price (next day).
+* SPY (S&P 500 index ETF) predicted closing price trajectory for the next day.
 ###### (Add image here)
-#
-### Interactive Controls
-The app user will be able to perform the following actions:
-* Purchase new securities.
-* Set hold commands to hold any/all securities for a specified duration.
-* Set sell commands to sell any/all owned securities at a specified date and time.
-* Obtain real-time trading information on selected stocks.
-###### (Add image/GIF here)
-#
+
 ---
 #
 # Technical Requirements
@@ -34,10 +26,6 @@ Generate ALPCACA API Keys
 
 (This code is optional)
 #
-### Monte Carlo Simulator
-(Obtain data from assignments and teammates)
-
-
 ### This application is compatible with the following platforms:
 * MacOS
 * Windows
@@ -45,24 +33,23 @@ Generate ALPCACA API Keys
 #
 #
 ---
-#
-#
 # How the App Works
-
-(App Name) employs Monte Carlo simulation and linear regression to predict future closing prices for the S&P 500. The simulation data is predicated upon historical market closing prices up to 18 months prior to the current date.
-#
-The Monte Carlo simulation runs 1000 simulations through 18 months of historical market data. (What does this do and why is it important)?
+### Monte Carlo Simulator
+This portion of the program similates 1000 possible outcomes based on the historical data (about 18 months of trading). Taking the average of that should give us the most likely outcome of the simulation.
+We provide a low and high estimate based on the 25th percentile and 75th percentile as well. 
 
 ![](Pictures/mc_graph.png)
-The app will provide predicted SPY closing prices with over 95% accuracy.
+
+### Regression Prediction
+Using multi-linear Regression, we can predict the outcome of the time-series data used. The independent variables were other world-wide region ETFs to predict the movement in the US by viewing the changes in the indices of other major, developed markets around the world. 
+The accuracy score of the model is typically 95% or higher. 
 #
 #
 ---
 #
 #
-# How to Use (App Name)
-(App image/GIF here)
-
+# How to Use our App
+Simply run the .exe or .py file. Once the application pop up, simply press the Predict button! 
 #
 #
 ---
