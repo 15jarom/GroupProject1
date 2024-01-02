@@ -1,8 +1,10 @@
 # ***SPY on Tomorrow!***
+![](Pictures/gui_2.png)
+
 *SPY on Tomorrow* serves to aid both new and veteran investors in making financially sound decisions when investing in SPY (S&P 500) securities. The application provides the following market data:
 * Historical closing price data (1 day prior).
 * SPY (S&P 500 index ETF) predicted closing price trajectory for the next day.
-###### Add GUI Image
+
 
 ---
 #
@@ -63,6 +65,8 @@ The accuracy score of the model is typically 95% or higher.
 #
 # How to Use Our App
 Simply load and run the .py file. Once the application opens, press ***Predict Next Day*** to see the results!
+
+![](Pictures/gui.png)
 #
 #
 ---
