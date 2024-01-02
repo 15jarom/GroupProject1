@@ -45,12 +45,17 @@ Additionally, low and high estimates (based on the 25th and 75th percentiles res
 #
 
 ### Regression Prediction
-Using multi-linear regression, the app can predict the outcome of the time-series data utilized. The independent variables are world-wide regional ETFs that help predict market movement in the US by viewing the changes in the indices of other highly developed markets around the world. 
+Using multiple linear regression, the app can predict the outcome of the time-series data utilized. The independent variables are 9 world-wide regional ETFs from highly developed markets. The changes in the indices of such ETFs help predict the potential behavior of the S&P 500 index. 
 
- 
 
 ![](Pictures/regression_graph.png)
 The accuracy score of the model is typically 95% or higher.
+#
+#
+
+### The diversity of the ETFs creates varying levels of correlation with the S&P 500 index. This provides a more robust gauge of how the US market will behave.
+![](Pictures/correlation.png)
+
 #
 #
 ---
